@@ -1,0 +1,62 @@
+2026-03-31 20:52:51.953 | INFO     | test_main_graph.py  :<module>       :9    - ===== 开始测试 =====
+2026-03-31 20:52:52.061 | INFO     | node_entry.py       :node_entry     :8    - >>>[Stub] 执行节点:node_entry
+2026-03-31 20:52:52.063 | INFO     | test_main_graph.py  :<module>       :17   - 节点：node_entry
+2026-03-31 20:52:52.064 | INFO     | test_main_graph.py  :<module>       :21   - 最终状态：{
+    "task_id": "",
+    "is_md_read_enabled": false,
+    "is_pdf_read_enabled": false,
+    "is_normal_split_enabled": true,
+    "is_silicon_flow_api_enabled": true,
+    "is_advanced_split_enabled": false,
+    "is_vllm_enabled": false,
+    "local_dir": "",
+    "local_file_path": "万用表rs-12的使用.pdf",
+    "file_title": "",
+    "pdf_path": "",
+    "md_path": "",
+    "split_path": "",
+    "embeddings_path": "",
+    "md_content": "",
+    "chunks": [],
+    "item_name": "",
+    "embeddings_content": []
+}
+2026-03-31 20:52:52.064 | INFO     | test_main_graph.py  :<module>       :22   - 图结构：
+2026-03-31 20:52:52.126 | INFO     | test_main_graph.py  :<module>       :27   - ===== 测试结束 =====
+2026-03-31 21:01:24.095 | INFO     | test_main_graph.py  :<module>       :9    - ===== 开始测试 =====
+2026-03-31 21:01:24.193 | INFO     | node_entry.py       :node_entry     :8    - >>>[Stub] 执行节点:node_entry
+2026-03-31 21:01:24.196 | INFO     | test_main_graph.py  :<module>       :17   - 节点：node_entry
+2026-03-31 21:01:24.196 | INFO     | node_pdf_to_md.py   :node_pdf_to_md :9    - >>>[Stub] 执行节点:node_pdf_to_md
+2026-03-31 21:01:24.197 | INFO     | test_main_graph.py  :<module>       :17   - 节点：node_pdf_to_md
+2026-03-31 21:01:24.198 | INFO     | node_md_img.py      :node_md_img    :9    - >>>[Stub] 执行节点:node_md_img
+2026-03-31 21:01:24.199 | INFO     | test_main_graph.py  :<module>       :17   - 节点：node_md_img
+2026-03-31 21:01:24.199 | INFO     | node_document_split.py:node_document_split:9    - >>>[Stub] 执行节点:node_document_split
+2026-03-31 21:01:24.200 | INFO     | test_main_graph.py  :<module>       :17   - 节点：node_document_split
+2026-03-31 21:01:24.201 | INFO     | mode_item_name_recognition.py:node_item_name_recognition:7    - >>>[Stub] 执行节点:node_item_name_recognition
+2026-03-31 21:01:24.202 | INFO     | test_main_graph.py  :<module>       :17   - 节点：node_item_name_recognition
+2026-03-31 21:01:24.202 | INFO     | node_bge_embedding.py:node_bge_embedding:7    - >>>[Stub] 执行节点:node_bge_embedding
+2026-03-31 21:01:24.204 | INFO     | test_main_graph.py  :<module>       :17   - 节点：node_bge_embedding
+2026-03-31 21:01:24.204 | INFO     | node_import_milvus.py:node_import_milvus:7    - >>>[Stub] 执行节点:node_import_milvus
+2026-03-31 21:01:24.205 | INFO     | test_main_graph.py  :<module>       :17   - 节点：node_import_milvus
+2026-03-31 21:01:24.206 | INFO     | test_main_graph.py  :<module>       :21   - 最终状态：{
+    "task_id": "",
+    "is_md_read_enabled": false,
+    "is_pdf_read_enabled": true,
+    "is_normal_split_enabled": true,
+    "is_silicon_flow_api_enabled": true,
+    "is_advanced_split_enabled": false,
+    "is_vllm_enabled": false,
+    "local_dir": "",
+    "local_file_path": "万用表rs-12的使用.pdf",
+    "file_title": "",
+    "pdf_path": "",
+    "md_path": "",
+    "split_path": "",
+    "embeddings_path": "",
+    "md_content": "",
+    "chunks": [],
+    "item_name": "",
+    "embeddings_content": []
+}
+2026-03-31 21:01:24.206 | INFO     | test_main_graph.py  :<module>       :22   - 图结构：
+2026-03-31 21:01:24.256 | INFO     | test_main_graph.py  :<module>       :27   - ===== 测试结束 =====

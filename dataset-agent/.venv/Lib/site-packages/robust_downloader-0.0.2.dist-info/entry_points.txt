@@ -1,0 +1,2 @@
+[console_scripts]
+robust-downloader = robust_downloader.cli:main
